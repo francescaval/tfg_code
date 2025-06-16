@@ -1,4 +1,4 @@
-# AR-MRNN Portfolio Optimization
+# AR-MRNN Portfolio Optimization (based on paper by Freitas, De Souza and de Almeida)
 
 This repository implements a weekly backtesting system for IBEX-35 stock portfolios using feedforward autoregressive neural networks (AR-MRNN). The strategy is benchmarked against a classical Markowitz (mean-variance) portfolio, with weekly rebalancing based on Sharpe-optimal weights.
 
@@ -11,6 +11,6 @@ This repository implements a weekly backtesting system for IBEX-35 stock portfol
 - Comparison with classical Markowitz portfolio.
 - Wealth evolution plots vs the IBEX-35 benchmark.
 - Normality tests on model residuals vs raw returns (Normality Index).
-- Forecast error metrics: RMSE and MAPE
+- Forecast error metrics: MSE, RMSE, MAE and MAPE
 - Choose the start date, the end date and the validation date to select the tickers. Also modify the value for the window or the number of epochs-
   
